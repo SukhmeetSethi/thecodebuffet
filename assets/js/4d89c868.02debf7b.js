@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkthecodebuffet=self.webpackChunkthecodebuffet||[]).push([[160],{4069:function(e){e.exports=JSON.parse('{"allTagsPath":"/thecodebuffet/blog/tags","slug":"/thecodebuffet/blog/tags/hello","name":"hello","count":2,"permalink":"/thecodebuffet/blog/tags/hello"}')}}]);

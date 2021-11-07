@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkthecodebuffet=self.webpackChunkthecodebuffet||[]).push([[773],{7966:function(e){e.exports=JSON.parse('{"allTagsPath":"/thecodebuffet/blog/tags","slug":"/thecodebuffet/blog/tags/docusaurus","name":"docusaurus","count":4,"permalink":"/thecodebuffet/blog/tags/docusaurus"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkthecodebuffet=self.webpackChunkthecodebuffet||[]).push([[53],{492:function(e){e.exports=JSON.parse('{"allTagsPath":"/thecodebuffet/blog/tags","slug":"/thecodebuffet/blog/tags/facebook","name":"facebook","count":1,"permalink":"/thecodebuffet/blog/tags/facebook"}')}}]);
