@@ -1,0 +1,21 @@
+.ellipse {
+    max-width: 150px;
+    /* height: 3rem; */
+    width: 100px;
+    background: #A6A6A6;
+    border-radius: 20px;
+    position: relative;
+    font-size: 1rem;
+    /* font-style: oblique; */
+    font-weight: bold;
+    text-align: center;
+    color: rgb(253 253 254);
+    padding: 15px;
+    float: right;
+    margin: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    
+}
+

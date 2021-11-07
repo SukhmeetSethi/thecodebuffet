@@ -1,0 +1,49 @@
+---
+id: about-me
+sidebar_position: 1
+sidebar_label: 'About me' 
+---
+
+# Nice Meeting you!
+
+ I am **Sukhmeet Sethi**  and here's how you can find me in a crowded market :
+
+export const ProfileImage = ({ imageUrl, color }) => (
+  
+    <div  style={{display: "flex", width : "80%" , alignItems: "center" , padding: "2rem", margin : "10px" }} >
+     
+        <img src={imageUrl}  style={{borderRadius: "40%" , width: "50%" }}/>
+     
+    </div>
+  
+);
+
+<ProfileImage color="#2583c2" imageUrl="/img/sukhmeet.jpg" />{" "}
+
+## Getting Started
+
+Get started by **creating a new site**.
+
+Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+
+## Generate a new site
+
+Generate a new Docusaurus site using the **classic template**:
+
+```shell
+npm init docusaurus@latest my-website classic
+```
+
+## Start your site
+
+Run the development server:
+
+```shell
+cd my-website
+
+npx docusaurus start
+```
+
+Your site starts at `http://localhost:3000`.
+
+Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
