@@ -56,8 +56,8 @@ const config = {
             label: 'Tips & Tricks',
             items: [
               {     
-                to: 'docs/about-me/story',     
-                label: 'Windows'
+                to: 'docs/tips-tricks/git/git-alias',     
+                label: 'Git'
               }
             ]
           },
