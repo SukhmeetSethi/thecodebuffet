@@ -15,7 +15,7 @@ const config = {
   favicon: 'img/tcb.png',
   organizationName: 'SukhmeetSethi', // Usually your GitHub org/user name.
   projectName: 'theCodeBuffet', // Usually your repo name.
-
+  plugins: ['@docusaurus/plugin-google-analytics'],
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -35,11 +35,7 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-        googleAnalytics: {
-          trackingID: 'G-Z64B8KYMFN',
-          // Optional fields.
-          anonymizeIP: true, // Should IPs be anonymized?
-        },
+        
       }),
     ],
   ],
@@ -128,6 +124,11 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      googleAnalytics: {
+        trackingID: 'G-Z64B8KYMFN',
+        // Optional fields.
+        anonymizeIP: true, // Should IPs be anonymized?
       },
     }),
 };
