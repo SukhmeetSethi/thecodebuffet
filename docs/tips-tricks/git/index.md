@@ -4,7 +4,7 @@ sidebar_position: 1
 sidebar_label: Git Aliases
 ---
 
-# Lazy developer and Tedious Git 
+# Lazy developer and tedious Git 
 
 Developers love speed, whether it is about their machine or their dev environments. We often see developers prefer to use keyboard shortcuts instead of mouse to accelerate development. We also see some developers create shell scripts, use shell aliases and many more ways to gain development speed.
 
@@ -51,7 +51,7 @@ I prefer all my shortcuts with two letters only : co, cm, st. The only reason I 
 Here are my aliases:
 
 Command | Alias
------ | ----
+----- | ------
 checkout | co
 commit | cm
 status | st
