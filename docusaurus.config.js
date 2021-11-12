@@ -15,7 +15,7 @@ const config = {
   favicon: 'img/tcb.png',
   organizationName: 'SukhmeetSethi', // Usually your GitHub org/user name.
   projectName: 'theCodeBuffet', // Usually your repo name.
-  plugins: ['@docusaurus/plugin-google-analytics'],
+ 
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -135,13 +135,3 @@ const config = {
 
 module.exports = config  
 
-// module.exports = {
-//   plugins: ['@docusaurus/plugin-google-analytics'],
-//   themeConfig: {
-//     googleAnalytics: {
-//       trackingID: 'UA-141789564-1',
-//       // Optional fields.
-//       anonymizeIP: true, // Should IPs be anonymized?
-//     },
-//   },
-// };
