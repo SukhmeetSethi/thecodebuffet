@@ -43,6 +43,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      googleAnalytics: {
+        trackingID: 'G-Z64B8KYMFN',
+        // Optional fields.
+        anonymizeIP: true, // Should IPs be anonymized?
+      },
       navbar: {
         title: '',
         logo: {
@@ -125,11 +130,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      googleAnalytics: {
-        trackingID: 'G-Z64B8KYMFN',
-        // Optional fields.
-        anonymizeIP: true, // Should IPs be anonymized?
-      },
+      
     }),
 };
 
