@@ -35,6 +35,11 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        googleAnalytics: {
+          trackingID: 'G-Z64B8KYMFN',
+          // Optional fields.
+          anonymizeIP: true, // Should IPs be anonymized?
+        },
       }),
     ],
   ],
@@ -127,4 +132,15 @@ const config = {
     }),
 };
 
-module.exports = config;
+module.exports = config  
+
+// module.exports = {
+//   plugins: ['@docusaurus/plugin-google-analytics'],
+//   themeConfig: {
+//     googleAnalytics: {
+//       trackingID: 'UA-141789564-1',
+//       // Optional fields.
+//       anonymizeIP: true, // Should IPs be anonymized?
+//     },
+//   },
+// };
