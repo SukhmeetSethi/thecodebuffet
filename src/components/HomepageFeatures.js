@@ -24,7 +24,7 @@ const FeatureList = [
         Not very interesting but yes there is bit of story how it all started.
       </>
     ),
-    link: "/docs/intro",
+    link: "/docs/about-me/about-me",
   },
 ];
 

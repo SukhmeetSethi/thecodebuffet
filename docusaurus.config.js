@@ -124,7 +124,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} theCodeBuffet, Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} theCodeBuffet`,
       },
       prism: {
         theme: lightCodeTheme,

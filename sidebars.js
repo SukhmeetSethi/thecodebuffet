@@ -27,8 +27,8 @@ module.exports = {
     //   items: ['about-me/story'],
     // },
 
-    'About me' : ['about-me/about-me'],
-    'About me story' : ['about-me/story']
+    'About me' : ['about-me/about-me']
+    
 
 },
    

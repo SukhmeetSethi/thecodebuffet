@@ -5,7 +5,12 @@
  */
 
 /* You can override the default Infima variables here. */
+*::-webkit-scrollbar-track {
+  background: var(--ifm-hero-background-color); /* color of the tracking area */
+}
+
 :root {
+  
   --ifm-color-primary: #0070C0;
   --ifm-color-primary-dark: rgb(33, 66, 175);
   --ifm-color-primary-darker: rgb(31, 94, 165);
@@ -13,8 +18,23 @@
   --ifm-color-primary-light: rgb(102, 138, 185);
   --ifm-color-primary-lighter: rgb(77, 91, 155);
   --ifm-color-primary-lightest: rgb(33, 149, 226);
+  --ifm-hero-background-color: #273036;
   --ifm-code-font-size: 95%;
 }
+
+:root [data-theme='dark'] {
+  
+  --ifm-color-primary: #7a7e81;
+  --ifm-color-primary-dark: rgb(99, 101, 107);
+  --ifm-color-primary-darker: rgb(31, 94, 165);
+  --ifm-color-primary-darkest: rgb(13, 26, 141);
+  --ifm-color-primary-light: rgb(102, 138, 185);
+  --ifm-color-primary-lighter: rgb(77, 91, 155);
+  --ifm-color-primary-lightest: rgb(33, 149, 226);
+  --ifm-hero-background-color: #273036;
+  --ifm-code-font-size: 95%;
+}
+
 
 .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.1);
