@@ -31,5 +31,9 @@ module.exports = {
     
 
 },
+tipsTricksSidebar: {
+  'Git' : ['tips-tricks/git/git-alias' , 'tips-tricks/git/git-actions']
+  
+},
    
 };
