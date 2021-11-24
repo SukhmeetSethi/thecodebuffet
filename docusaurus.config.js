@@ -15,6 +15,7 @@ const config = {
   favicon: 'img/tcb.png',
   organizationName: 'SukhmeetSethi', // Usually your GitHub org/user name.
   projectName: 'theCodeBuffet', // Usually your repo name.
+  
  
   presets: [
     [
@@ -26,12 +27,14 @@ const config = {
           // Please change this to your repo.
           editUrl: 'https://github.com/SukhmeetSethi/thecodebuffet',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/SukhmeetSethi/thecodebuffet',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   editUrl:
+        //     'https://github.com/SukhmeetSethi/thecodebuffet',
+        // },
+        blog: false,
+        
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -109,20 +112,7 @@ const config = {
                 href: 'https://stackoverflow.com/users/7364381/sukhmeet-sethi',
               },
             ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/SukhmeetSethi/',
-              },
-            ],
-          },
+          }
         ],
         copyright: `Copyright © ${new Date().getFullYear()} theCodeBuffet`,
       },
