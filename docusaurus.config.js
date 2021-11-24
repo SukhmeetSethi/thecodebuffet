@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'We all learn from Experience',
   tagline: 'theCodeBuffet is an attempt to share technology learnings and help tech community to find solution atleast for few problems. That is our bit to give back something we got from industry.',
-  url: 'https://sukhmeetsethi.github.io',
+  url: 'https://thecodebuffet.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -34,7 +34,7 @@ const config = {
         //     'https://github.com/SukhmeetSethi/thecodebuffet',
         // },
         blog: false,
-        
+
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
