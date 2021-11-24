@@ -14,7 +14,7 @@ const FeatureList = [
         forget to like and subscribe :)
       </>
     ),
-    link: "/docs/intro",
+    link: "#",
   },
   {
     title: "How it started",

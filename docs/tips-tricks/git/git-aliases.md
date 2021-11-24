@@ -2,6 +2,7 @@
 id: git-alias
 sidebar_position: 1
 sidebar_label: Git Aliases
+tags: [git, aliases, developer, github]
 ---
 
 # Lazy developer and tedious Git 

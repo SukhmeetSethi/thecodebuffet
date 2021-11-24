@@ -45,7 +45,7 @@ And that's where I also found an option of using Github Actions. It immedeately 
 
 All these limits were quite adequate for me as I am going to publish few articles every month which are never going to hit limits of 2000 minutes. Package size like I mentioned earlier is quite small (just few MBs) and I was all fine to use Ubuntu as OS. So again all boxes ticked. 
 
-One more thing which I liked when I started learning about Github actions, it's approach and somewhat syntax was similar to Gitlab which I was already comfortable with, so I didn't took me much time to configure my pipeline. There are also many pre-created templates which you can start your pipeline with and modify as per your need.
+One more thing which I liked when I started learning about Github actions, it's approach and somewhat syntax was similar to Gitlab which I was already comfortable with, so it didn't took me much time to configure my pipeline. There are also many pre-created templates which you can start your pipeline with and modify as per your need.
 
 Here is how thecodebuffet.com pipeline works with Github actions https://github.com/SukhmeetSethi/thecodebuffet/blob/master/.github/workflows/ci.yml
 
