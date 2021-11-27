@@ -56,3 +56,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   margin-right: 1rem;
   min-width: 0;
 }
+
+.hero__title {
+  font-size: 2.5rem;
+}
