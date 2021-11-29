@@ -2,10 +2,10 @@
 id: git-alias
 sidebar_position: 1
 sidebar_label: Git Aliases
-tags: [git, aliases, developer, github]
+tags: [git, aliases, developer, github, github aliases]
 ---
 
-# Lazy developer and tedious Git 
+# Get more efficient with Git aliases 
 
 Developers love speed, whether it is about their machine or their dev environments. We often see developers prefer to use keyboard shortcuts instead of mouse to accelerate development. We also see some developers create shell scripts, use shell aliases and many more ways to gain development speed.
 

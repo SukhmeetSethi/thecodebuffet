@@ -1,10 +1,11 @@
 ---
 id: git-actions
 sidebar_position: 2
-sidebar_label: Git Pages & Actions
+sidebar_label: Github Pages & Actions
+tags: [git, Github Actions, github pages, github, docusauras, deployment]
 ---
 
-# My deployment journey
+# Docusauras deployment with Github Actions and Github Pages
 
 It all started when I was looking to build CI-CD for this website thecodebuffet.com. My docusaurus application was working in local and now I was looking to find the best solution for deploying it in public domain. There were couple of decision I had to take now:
 - What is going to be my deployment platform
