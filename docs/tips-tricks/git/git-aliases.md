@@ -1,5 +1,6 @@
 ---
 id: git-alias
+title: Get more efficient with Git aliases
 sidebar_position: 1
 sidebar_label: Git Aliases
 tags: [git, aliases, developer, github, github aliases]

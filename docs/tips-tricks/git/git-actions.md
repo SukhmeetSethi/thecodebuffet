@@ -1,5 +1,6 @@
 ---
 id: git-actions
+title: Docusauras deployment with Github Actions and Github Pages
 sidebar_position: 2
 sidebar_label: Github Pages & Actions
 tags: [git, Github Actions, github pages, github, docusauras, deployment]
