@@ -5,3 +5,5 @@ thecodebuffet is nothing special when it is comapred to the knowledge wealth ava
 The idea is to share "how we did this" or "how we worked on this technology" rather than how it should be done. 
 
 This is just the microsite code, you can find the website here: [thecodebuffet](https://thecodebuffet.com)
+
+Deployment is done through Github Actions
