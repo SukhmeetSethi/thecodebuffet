@@ -1,41 +1,9 @@
-# Website
+# thecodebuffet
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+thecodebuffet is nothing special when it is comapred to the knowledge wealth available on Google but it's an attempt to learn and share "our bit of knowledge and experience" gained while working with IT Industry. 
 
-### Installation
+The idea is to share "how we did this" or "how we worked on this technology" rather than how it should be done. 
 
-```
-$ yarn
-```
+This is just the microsite code, you can find the website here: [thecodebuffet](https://thecodebuffet.com)
 
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Deployment is done through Github Actions
