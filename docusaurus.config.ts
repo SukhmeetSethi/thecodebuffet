@@ -6,7 +6,7 @@ const config: Config = {
   title: 'We all learn from Experience',
   tagline: 'theCodeBuffet is an attempt to share technology learnings and help tech community to find solution atleast for few problems. That is our bit to give back something we got from industry.',
   url: 'https://thecodebuffet.com',
-  baseUrl: '/thecodebuffet/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/tcb.png',
