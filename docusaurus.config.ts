@@ -55,6 +55,18 @@ const config: Config = {
         },
       items: [
         {
+          position: 'left',
+          label: 'Cloud',
+          items: [
+            {     
+              to: 'docs/cloud/aws/s3-basics',     
+              label: 'aws'
+            }
+          ]
+
+
+        },
+        {
           // type: 'doc',
           // docId: 'tips-tricks/tips-tricks',
           position: 'left',
